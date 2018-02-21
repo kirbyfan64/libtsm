@@ -189,6 +189,7 @@ gtktsm_SOURCES = \
 	src/shared/shl-pty.c
 gtktsm_CPPFLAGS = \
 	$(AM_CPPFLAGS) \
+    -Isrc/tsm \
 	$(GTKTSM_CFLAGS)
 gtktsm_LDADD = \
 	-lm \
